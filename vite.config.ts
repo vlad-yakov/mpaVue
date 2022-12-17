@@ -10,14 +10,14 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        gesht: resolve(__dirname, 'src/geshtTerap/gp.html'),
-        psan: resolve(__dirname, 'src/psychoAn/ps.html')
+          gesht: resolve(__dirname, 'src/geshtTerap/index.html'),
+          psan: resolve(__dirname, 'src/psychoAn/index.html'),
+          bkgn: resolve(__dirname, 'src/biha-Kogn/index.html'),
+          artrp: resolve(__dirname, 'src/artTerp/index.html')
       }
     }
   }
 })
-
-
 
 /*module.exports = {
   pages: {
